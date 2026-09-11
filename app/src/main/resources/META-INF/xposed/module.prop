@@ -1,0 +1,7 @@
+id: DateSpoofer
+name: 日期伪装
+version: 1.0.0
+versionCode: 1
+author: MiMo
+description: 对指定应用伪装系统日期与时间（Android 16 / LSPosed）
+minApiVersion: 82

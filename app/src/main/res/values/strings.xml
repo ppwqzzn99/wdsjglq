@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">日期伪装</string>
+    <string name="xposed_description">对指定应用伪装系统日期与时间（LSPosed / Android 16）</string>
+
+    <string name="status_title">模块状态</string>
+    <string name="status_active">已激活（LSPosed）</string>
+    <string name="status_inactive">未激活：请在 LSPosed 中启用本模块</string>
+    <string name="status_check_lsposed">请在 LSPosed 管理器中启用本模块并勾选作用域</string>
+
+    <string name="master_switch_title">启用日期伪装</string>
+    <string name="master_switch_summary">关闭后立即还原真实时间</string>
+
+    <string name="target_app_title">目标应用</string>
+    <string name="target_app_hint">选择要伪装日期的应用</string>
+    <string name="target_app_none">未选择</string>
+
+    <string name="mode_title">伪装模式</string>
+    <string name="mode_fixed">固定日期</string>
+    <string name="mode_fixed_desc">始终返回你设定的日期时间</string>
+    <string name="mode_offset">偏移天数</string>
+    <string name="mode_offset_desc">在真实时间上整体偏移 N 天</string>
+
+    <string name="fake_date_title">伪造日期</string>
+    <string name="fake_time_title">伪造时间</string>
+    <string name="offset_days_title">偏移天数</string>
+    <string name="offset_days_hint">正数=未来，负数=过去</string>
+
+    <string name="options_title">附加选项</string>
+    <string name="spoof_timezone_title">同时伪造时区</string>
+    <string name="spoof_timezone_summary">使用目标时区 ID，例如 Asia/Shanghai</string>
+    <string name="timezone_id_title">时区 ID</string>
+    <string name="spoof_build_time_title">伪造 Build.TIME</string>
+    <string name="spoof_build_time_summary">修改系统构建时间字段</string>
+
+    <string name="preview_title">生效预览</string>
+    <string name="preview_label">目标应用将看到的时间</string>
+    <string name="preview_real_label">真实时间</string>
+
+    <string name="save">保存</string>
+    <string name="saved">已保存，重新打开目标应用后生效</string>
+    <string name="pick_date">选择日期</string>
+    <string name="pick_time">选择时间</string>
+    <string name="search_hint">搜索应用…</string>
+    <string name="app_list_empty">没有可显示的应用</string>
+    <string name="hook_scope_hint">请在 LSPosed 管理器 → 本模块 → 作用域 中勾选同一个目标应用</string>
+</resources>

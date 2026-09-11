@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 空 scope：安装后在 LSPosed 管理器中手动勾选目标应用 -->
+    <string-array name="xposed_scope" />
+</resources>
